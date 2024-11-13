@@ -13,8 +13,6 @@ function App() {
   return (
     <div className=' '>
       <div className=' pt-4 lg:pt[5.25rem overflow-hidden'>
-
-      </div>
       <Header/>
       <Hero/>
   <Benefits/>
@@ -22,6 +20,7 @@ function App() {
   <Services/>
   <Pricing/>
     
+      </div>
 <ButtonGradient/>
     </div>
   )

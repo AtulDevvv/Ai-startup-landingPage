@@ -2,7 +2,7 @@ import React, { useRef } from 'react'
 import { curve, robotic } from '../assets'
 import Button from './Button'
 import { MouseParallax, ScrollParallax } from "react-just-parallax";
-import {BackgroundCircles, BottomLine,Gradient} from './design/Hero'
+import { BottomLine,Gradient} from './design/Hero'
 import {heroIcons} from '../constants'
 import GeratingAi from './design/GeratingAi';
 import Notification from './design/Notification';
@@ -14,7 +14,7 @@ function Hero({}) {
   const parallexRef=useRef(null)
   return (
     <div ref={parallexRef} className='w-full mt-20 py-4 p-10 lg:flex  flex-col items-center justify-center bg-gradient-to-r to-black from-black via-orange-500 to-orange-600" '>
-      <BackgroundCircles/>
+      
       <SectionSvg/>
         <div className='w-full relative flex flex-col justify-center items-center lg:w-[60%]  '>
             <h1 className='flex lg:block flex-col text-3xl lg:text-5xl lg:leading-[4vw] font-bold'> <span className='ml-5 lg:ml-1'>Explore the </span><span className='ml-[-20px] lg:ml-1'>Possibilities of AI  </span><span className='ml-3 lg:ml-0'> Chatting with </span>
